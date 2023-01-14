@@ -1,0 +1,263 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+#textar{
+    border-style: none;
+    position: absolute;
+    width: 577px;
+    height: 500px;
+    left: 240px;
+    top: 168px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    background:#F3F5FC;
+
+}
+.frame1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+.aviso{
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    /* Gray/gray-400 */
+    color: #495057;
+    opacity: 0.8;
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+}
+.frame3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    flex: none;
+    flex-grow: 0;
+}
+button p{
+    width: 280px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#encri {
+    background: #0A3871;
+    order: 0;
+}
+#encri p{
+    color: #FFFFFF;    
+}
+#desencri{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    order: 1;
+}
+#desencri p, #copi p{
+    color: #0A3871;
+}
+.rectangle1{
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+#textar2{
+    border-style: none;
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 32px;
+    top: 2%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    background: #FFFFFF;
+}
+#copi{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    margin-left: 32px;
+    margin-top: 845px;
+    width: 336px;
+    visibility: collapse;
+
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 32px;
+    top: 579px;
+}
+p{
+  display: inline;  
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+}
+.mensaje{
+    width: 336px;
+    height: 58px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    flex-grow: 0;
+}
+.texto2{
+    width: 336px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    flex-grow: 0;
+}
+
+.munheco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+    background: white;
+    
+}
+@media screen and (max-width:480px) {
+    
+    body{
+        width:auto;
+        height:auto;
+    }
+   .rectangle1 {
+    width: 100%;
+    height: 480px;
+    left: 10px;
+    top: 650px;
+   }
+   #textar{
+    width: 100%;
+    height: 360px;
+    left: 3px;
+    top: 80px;
+   }
+   .frame3{
+    width: 100%;
+    height: 170px;
+    left: 5px;
+    top: 450px;
+    flex-direction: column;
+   }
+   .logo{
+    top: 10px;
+   }
+   .frame1{
+    width: 100%;
+    left: 2px;
+    top: 420px;
+   }
+   #desencri{
+    left: 2px;
+    top: 68px;;
+   }
+   #copi{
+    margin-top: 400px;
+    margin-left:auto;
+   }
+   #textar2{
+    width: 100%;
+    height: 360px;
+    left: 2px;
+   }
+   .munheco{
+    visibility: collapse;
+   }
+   .frame{
+    width: 100%;
+    top: 200px;
+   }
+
+}
