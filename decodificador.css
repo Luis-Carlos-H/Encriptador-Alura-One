@@ -49,7 +49,7 @@ body{
     left: 240px;
     top: 851px;
 }
-.aviso{
+.aviso, .firma p{
     width: 205px;
     height: 18px;
 
@@ -79,6 +79,15 @@ body{
     left: 240px;
     top: 885px;
 
+}
+.firma{
+    position: absolute;
+    padding: 0px;
+    gap: 8px;
+    top:960px;
+    width: 229px;
+    height: 18px;
+    left: 240px;
 }
 button{
     display: flex;
